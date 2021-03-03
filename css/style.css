@@ -812,9 +812,8 @@ nav.sticky ul li a {
 
 .header {
   margin-bottom: 70px;
-  background: url(../img/bg2.jpg) center/cover no-repeat fixed;
+  background: url(../img/bg2.jpg) center/cover no-repeat;
   width: 100%;
-  max-width: 100%;
   position: relative;
 }
 
@@ -824,7 +823,6 @@ nav.sticky ul li a {
           backdrop-filter: blur(1px);
   height: 100vh;
   max-width: 100%;
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1922,7 +1920,7 @@ td {
     padding: 15px 5px;
   }
 
-  .btn {
+  .menu__btn {
     display: none;
   }
 }
@@ -1947,7 +1945,7 @@ td {
 
 .webp .menu__icons-two{ background-image: url(../img/Trazado.webp); }
 
-.webp .header{ background: url(../img/bg2.webp) center/cover no-repeat fixed; }
+.webp .header{ background: url(../img/bg2.webp) center/cover no-repeat; }
 
 .webp .about{ background: url(../img/bg3.webp) center/cover no-repeat; }
 
